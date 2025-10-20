@@ -1,12 +1,13 @@
-$ ls -1
-Java_Console_Calculator.class
-Java_Console_Calculator.java
+# Java Console Calculator
 
-poona@poonam MINGW64 ~/OneDrive/Documents/Calculator (main)
-$ git add .
+A simple Java-based console calculator that supports Addition, Subtraction, Multiplication, and Division. Includes input validation, divide-by-zero handling, and continuous loop support for multiple operations.
 
-poona@poonam MINGW64 ~/OneDrive/Documents/Calculator (main)
-$ git status
-On branch main
-nothing to commit, working tree clean
+## Features
+✅ Supports double and integer input  
+✅ Handles invalid input using try-catch  
+✅ Prevents division by zero  
+✅ Loop-based multiple calculations
 
+## How to Run
+> javac Java_Console_Calculator.java  
+> java Java_Console_Calculator
